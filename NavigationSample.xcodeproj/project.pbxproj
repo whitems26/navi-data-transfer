@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E082EC5F1F43FFF600FAFF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E082EC5E1F43FFF600FAFF6B /* AppDelegate.swift */; };
-		E082EC611F43FFF600FAFF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E082EC601F43FFF600FAFF6B /* ViewController.swift */; };
 		E082EC641F43FFF600FAFF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E082EC621F43FFF600FAFF6B /* Main.storyboard */; };
 		E082EC661F43FFF600FAFF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E082EC651F43FFF600FAFF6B /* Assets.xcassets */; };
 		E082EC691F43FFF600FAFF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E082EC671F43FFF600FAFF6B /* LaunchScreen.storyboard */; };
+		E082EC711F44050600FAFF6B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E082EC701F44050600FAFF6B /* MainTableViewController.swift */; };
+		E082EC731F440A7300FAFF6B /* BackColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E082EC721F440A7300FAFF6B /* BackColorViewController.swift */; };
+		E082EC751F440CA500FAFF6B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E082EC741F440CA500FAFF6B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E082EC5B1F43FFF600FAFF6B /* NavigationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E082EC5E1F43FFF600FAFF6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E082EC601F43FFF600FAFF6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E082EC631F43FFF600FAFF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E082EC651F43FFF600FAFF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E082EC681F43FFF600FAFF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E082EC6A1F43FFF600FAFF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E082EC701F44050600FAFF6B /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		E082EC721F440A7300FAFF6B /* BackColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackColorViewController.swift; sourceTree = "<group>"; };
+		E082EC741F440CA500FAFF6B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				E082EC5E1F43FFF600FAFF6B /* AppDelegate.swift */,
-				E082EC601F43FFF600FAFF6B /* ViewController.swift */,
 				E082EC621F43FFF600FAFF6B /* Main.storyboard */,
 				E082EC651F43FFF600FAFF6B /* Assets.xcassets */,
 				E082EC671F43FFF600FAFF6B /* LaunchScreen.storyboard */,
 				E082EC6A1F43FFF600FAFF6B /* Info.plist */,
+				E082EC701F44050600FAFF6B /* MainTableViewController.swift */,
+				E082EC721F440A7300FAFF6B /* BackColorViewController.swift */,
+				E082EC741F440CA500FAFF6B /* MainViewController.swift */,
 			);
 			path = NavigationSample;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E082EC611F43FFF600FAFF6B /* ViewController.swift in Sources */,
+				E082EC731F440A7300FAFF6B /* BackColorViewController.swift in Sources */,
+				E082EC711F44050600FAFF6B /* MainTableViewController.swift in Sources */,
 				E082EC5F1F43FFF600FAFF6B /* AppDelegate.swift in Sources */,
+				E082EC751F440CA500FAFF6B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
